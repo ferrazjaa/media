@@ -22,7 +22,7 @@ function calcularMedia() {
   
 
     /* cálculo das médias */
-    media = ((nota1 + nota2 + nota3 + nota4 + nota5) / 5)
+    let media = ((nota1 + nota2 + nota3 + nota4 + nota5) / 5)
 
     /* média com apenas duas casas decimais */
     media = media.toFixed(2)
@@ -36,6 +36,8 @@ function calcularMedia() {
     document.getElementById('nota-4').value = ''
     document.getElementById('nota-5').value = ''
 
-    return document.getElementById('resultado').innerHTML = `A média de ${nota1}, ${nota2}, ${nota3}, ${nota4} e ${nota5} é: ${media}`
+    
+
+    return document.getElementById('resultado').innerHTML = `A média de ${nota1}, ${nota2}, ${nota3}, ${nota4} e ${nota5} é:  <strong> ${media} </strong>`
     
 }
