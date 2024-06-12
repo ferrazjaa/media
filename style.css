@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 2.5rem;
+}
+
+label, p, button, input{
+    font-size: 2.2rem;
+    
+    
+}
+
+label{
+    margin-bottom: 3rem;
+}
+
+input{
+    font-size:2rem;
+    padding: 1.1rem;
+    width: 10%;
+    text-align: center;
+}
+
+
+
+
+p{
+    border: 1px solid red;
+}
